@@ -75,7 +75,9 @@
             //initalizes boolean to see if decimalMult is greater than decimalAdd
             bool isdecimalGreater = decimalMult > decimalAdd;
             //prints if decimalMult is greater than decimalAdd
-            Console.WriteLine($"{decimalMult} is greater than {decimalAdd} {isdecimalGreater}.");
+            Console.WriteLine($"{decimalMult} is greater than {decimalAdd} {isdecimalGreater}.\n");
+
+            Console.WriteLine("Coder should really find a Math for Dummies book!");
         }
     }
 }
